@@ -1,0 +1,208 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/*************** header styles ******************/
+.nav-header {
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.cm-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 5px 0px;
+}
+
+.cm-navbar-log img {
+    width: 150px;
+}
+
+.cm-navbar-link-lists,
+ul.phone-email {
+    list-style-type: none;
+    margin: 0;
+}
+
+.cm-navbar-link-lists {
+    margin-top: 25px;
+}
+
+.cm-navbar-link-lists li.cm-navbar-link-item,
+ul.phone-email li {
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+}
+
+.cm-navbar-link-lists li.cm-navbar-link-item a::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 4px;
+    background-color: #ffc428;
+    width: 0%;
+    bottom: -10px;
+    right: 14px;
+    transition: all 0.2s linear;
+}
+
+.cm-navbar-link-lists li.cm-navbar-link-item a:hover:before {
+    width: 30%;
+}
+
+.cm-navbar-link-lists li.cm-navbar-link-item a,
+ul.phone-email li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* .pages .cm-navbar-link-lists li.cm-navbar-link-item a, .pages ul.phone-email li a{
+    color: black;
+} */
+ul.phone-email {
+    display: flex;
+    justify-content: end;
+}
+
+ul.phone-email li a {
+    padding: 9px 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+
+}
+
+ul.phone-email li a img {
+    max-width: 25px;
+    margin-right: 4px;
+}
+
+/*************************** general styles ******************************/
+/****************    Opening Banner    *************/
+.opening-banner {
+    height: 430px;
+    background-image: url(../../images/Services/Services_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opening-banner h1 {
+    font-size: 60px;
+    font-weight: 200;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    color: #ffc428;
+    position: relative;
+}
+
+.opening-banner h1::before,
+.opening-banner h1::after {
+    content: ' ';
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.opening-banner h1::before{
+    top: 8px;
+}
+.opening-banner h1::after{
+    bottom: 5px;
+    top: auto;
+}
+
+/*********************** Explore Button ***********************/
+a.explore-btn {
+    width: 116px;
+    background-color: transparent;
+    border: 2px solid #ffc428;
+    color: #ffc428;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: all 0.2s linear;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+a.explore-btn.black-theme{
+    color: #000;
+    border-color: black;
+}
+a.explore-btn.black-theme:hover{
+    background-color: black;
+    color: #fff;
+}
+a.explore-btn.white-theme{
+    color: #fff;
+    border-color: #fff;
+}
+a.explore-btn.white-theme:hover{
+    background-color: #fff;
+    color: black;
+}
+/*********************** content h2 ********************************/
+.container{
+    padding: 60px 20px; 
+}
+.inner-container{
+    max-width: 1250px;
+    margin: auto;
+}
+.content,.imgSec{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.imgSec{
+    align-items: flex-end;
+}
+.imgSec.cntrl-s img{
+    max-width: 550px;
+}
+.content.white{
+    color: white;
+}
+.pages h2{
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 15px;
+}
+.content p{
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+.content.left{
+    margin-right: 50px;
+}

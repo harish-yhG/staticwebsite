@@ -1,0 +1,58 @@
+.container.dj-bg{
+    background-image: url(../../images/Services/DJ_BG.jpg);
+    background-position: bottom;
+}
+.opening-banner{
+    background-color: #eaeaea;
+}
+.container.pv-bg{
+    background-image: url(../../images/Services/Photo_Videos_Bg.jpg);
+    padding: 200px 0px;
+    background-size: cover; 
+}
+.container.catering-bg{
+    background-image: url(../../images/Services/Catering_Bg.png);
+    height: 350px;
+    background-size: cover;
+}
+.container.catering-bg .inner-container{
+    text-align: center;
+}
+.container.catering-bg .inner-container .content{
+    width: 100%;
+}
+.container.catering-bg .inner-container a.explore-btn{
+    margin: auto;
+}
+.container.catering-bg .inner-container p{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+.decor-img{
+    text-align: center;
+    padding: 0 10px;
+}
+.decor-img img{
+    max-width: 730px;
+    margin-top: -170px;
+}
+.container.decor-bg .inner-container{
+    padding-top: 60px;
+}
+.imgSec.start{
+    align-items: center;
+}
+.container.live-bg{
+    padding-bottom: 0px;
+    background-image: url(../../images/Services/Live_Streaming_Bg.png);
+}
+.container.live-bg .content>div{
+    background: white;
+    max-width: 450px;
+    padding: 50px 30px 40px 30px;
+    border-radius: 68px;
+}
+.live-bg .imgSec img{
+    max-width: 350px;
+}

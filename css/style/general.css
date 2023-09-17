@@ -1,0 +1,55 @@
+.cm-container{
+    width: 100%;
+    padding: 100px 20px;
+}
+img, svg{
+    vertical-align: middle;
+}
+.cm-flex{
+    display: flex;
+}
+.cm-flex-c{
+    display: flex;
+    flex-direction: column;
+}
+.cm-flex-res{
+    display: flex;
+}
+.cm-jcc{
+    justify-content: center;
+}
+.cm-aic{
+    align-items: center;
+}
+.cm-ais{
+    align-items: flex-start;
+}
+.cm-jc-ai-c{
+    justify-content: center;
+    align-items: center;
+}
+.cm-mb20{
+    margin-bottom: 20px;
+}
+.w50{
+    width: 50%;
+}
+.w50-res{
+    width: 50%;
+}
+.mxw-1300{
+    max-width: 1300px;
+    margin: auto;
+}
+.cm-flex-left{
+    margin-right: 20px;
+}
+.cm-flex-right{
+    margin-left: 20px;
+}
+.pl30{
+    padding-left: 30px;
+}
+.tac{
+    text-align: center;
+}

@@ -1,0 +1,176 @@
+body{
+    overflow-x: hidden;
+}
+.slider.slick-initialized .box{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.boxs{
+    width: 150px;
+    height: 229px;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+}
+.max-w{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.box1{
+    background-image: url(../../images/home/DJ.jpg);
+}
+.box2{
+    background-image: url(../../images/home/Photography.jpg);
+}
+.box3{
+    background-image: url(../../images/home/Catering.jpg);
+}
+.box4{
+    background-image: url(../../images/home/Decor.jpg);
+}
+.box5{
+    background-image: url(../../images/home/Live-Streaming.jpg);
+}
+
+.sbox1{
+    background-image: url(../../images/home/DJ-audio.png);
+}
+.sbox2{
+    background-image: url(../../images/home/Photo_Videography.png);
+}
+.sbox3{
+    background-image: url(../../images/home/Catering.png);
+}
+.sbox4{
+    background-image: url(../../images/home/Decor.png);
+}
+.sbox5{
+    background-image: url(../../images/home/Live-Streaming.png);
+}
+.slider-nav .slick-list{
+    max-width: 616px;
+    /* margin-left: auto; */
+}
+.slider-nav {
+    margin-top: -18%;
+}
+.box h2, .box h3.ls-h, .box h3.bh-h, .box a{
+    opacity: 0;
+    transform:  translateY(100px);
+    transition: all linear 0s 0s;
+}
+.box.slick-active h2, .box.slick-active h3.ls-h, .box.slick-active a, .box.slick-active h3.bh-h{
+    opacity: 1;
+    transform:  translateY(0px);
+    transition: all ease-out 0.5s;
+}
+.box.slick-active h3.ls-h{
+    transition-delay: 0.1s;
+}
+ .box.slick-active h2{
+    transition-delay: 0.2s;
+}
+.box.slick-active h3.bh-h{
+    transition-delay: 0.3s;
+}
+.box.slick-active a{
+    transition-delay: 0.4s;
+} 
+.hm-content h3, .hm-content h2{
+    color: white;
+}
+.hm-content h2{
+    color: #ffc428;
+    font-weight: 700;
+    font-size: 60px;
+    align-items: flex-end;
+    display: flex;
+    line-height: 50px;
+}
+.hm-content h2 img{
+    max-width: 80px;
+    margin-left: 16px;
+}
+.hm-content h3.ls-h{
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+.hm-content h3.bh-h{
+    font-weight: 300;
+    margin-top: 5px;
+}
+a.explore-btn {
+    background-color: transparent;
+    border: 2px solid #ffc428;
+    color: #ffc428;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: all 0.2s linear;
+    display: inline-block;
+    margin-top: 26px;
+    position: relative;
+    cursor: pointer;
+}
+a.explore-btn:hover{
+    background-color: #ffc428;
+    color: white;
+}
+.slider.slider-nav{
+    width: 42%;
+    margin-left: auto;
+}
+.slick-prev, .slick-next{
+    top: -14px;
+}
+
+.slider.slider-nav .slick-prev, .slider.slider-nav .slick-next{
+    left: 58px;
+    background-image: url(../../images/home/Arrow_white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 50px;
+    top: -13px;
+}
+.slider.slider-nav .slick-next{
+    left: 12px;
+    top: -34px;
+    transform: rotate(180deg);
+}
+.slider.slider-nav .slick-prev:hover, .slider.slider-nav .slick-next:hover{
+    background-image: url(../../images/home/Arrow_Yellow.png);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.slick-prev:before,.slick-next:before{
+    content: '';
+    /* background-image: url(../../images/home/Arrow_white.png);
+    min-width: 20px;
+    height: 20px;
+    opacity: 1; */
+}
+
+/******************* Social media **********************/
+.social_media{
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    font-size: 13px;
+    left: 50px;
+}
+.social_media p{
+    margin-bottom: 10px;
+}
+.social_media a{
+    margin: 0 4px;
+}
+.social_media a img{
+    max-width: 20px;
+}
